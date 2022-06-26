@@ -1,0 +1,69 @@
+Week6Lab – 10 pts
+Pre-lab questions
+1.Arrays and ArrayLists are similar, but not the same. The differences are important to know
+a.Declare an Array of Strings and an ArrayList of Strings. Highlight the differences.
+
+b.Add one element to each of the previously declared collections. Highlight the differences.
+
+c.Write a loop to print out each element in the array. What, if anything, would have to be
+different to do the same task for the ArrayList?
+
+d.What happens if you try to add one more element than will fit? Is the result different
+for the two types of collections?
+
+2.Write a method that performs a statistical operation on a set of integers.
+You do not know how many integers will be passed into the method.
+
+
+
+
+
+Choose one of the following to develop into a program that an array. Do not use an ArrayList!
+Once chosen, do the following:
+Understand the problem (restate in your own words, make any assumptions clear):
+
+UML diagrams of any classes needed, including the one with main:
+
+Pseudocode of any non-trivial methods in each class (no pseudocode needed for basic setters
+and getters or no args constructors):
+
+Name of files (.java) submitted:
+
+White box test plan and results:
+
+
+
+Trail Data
+Write a program that contains a list of elevation data for specific hiking trails. The
+elevation measurements are taken every 10 meters and indicate via positive or negative
+numbers the difference in elevation from the previous location. The values for one trail
+should be randomly generated in the range of -5 to 5 for the 100 measures taken of the
+1KM trail. The values for a second trail should be entered as all 1’s to the midpoint and
+all -1’s for the second half (use a loop). Create an interesting (but not too hard) trail
+by manually entering the data in the range of -5 to 5. For each of the trails, find the
+elevation difference from start to end. The second one should be 0 as half the trail goes
+up by one then the other half goes down by one.
+
+Find a way to print the data in a way that is visually informative but not the numbers themselves.
+
+Sales Receipt
+Think about the grocery store and how long your receipt can get! Write a program that allows
+for a receipt for 100 items. Populate the array with random doubles in a range you find typical
+for grocery purchases. Allow for some ‘small’ negative numbers to represent coupons or deals.
+Calculate the sum, the sum of the positive numbers and the sum of the negative numbers.
+Calculate 3% sales tax on the positive numbers only. Print a receipt that includes each
+value in the array, the positive total, the most expensive item, the negative total
+(with a you saved type statement), the tax, and the total due to be paid to the store.
+Test it with random data, only positive numbers and with a small receipt of numbers you enter.
+
+
+How Random is Random?
+Write a program that will test the random number generator in several ways. Create an array
+to hold 100 coin flips represented as 0 or 1. Populate it with numbers generated randomly
+with Random class. Create another array to hold 100 rolls of a d6 (6 sided dice) also
+populated with randomly generated numbers in the range of 1-6. Create one more array to
+hold 100 results of rolling 2d6 (2 dice). Roll each die separately then add the results
+and store them in the array.
+
+Calculate and print the average value for each array.
+Count the number of each value in the two dice arrays then create a histogram with asterisks (*) to represent how many times that number was generated.  If you need a hint, see example code (https://courses.cs.washington.edu/courses/cse142/10sp/lectures/5-19/~programs/Histogram.java )

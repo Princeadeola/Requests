@@ -1,0 +1,67 @@
+<Replace with your name>
+<Replace with date>
+Week6Meet - 10 pts
+Turn in on BBL as soon as complete, but before end of day Friday following the lecture.
+Answer these questions as we progress through the meeting.
+1.Declare an array of type int that will hold 50 numbers:
+ANS:
+int[] numbers = new int[50];
+
+2.Declare an array of type String that will hold the inner planets:
+ANS:
+String[][] planets = new String[50][];
+
+3.Print out Earth from the previous array.
+ANS:
+for (String element: array) {
+    if (element.toLowerCase().equals("earth")){
+        System.out.println(element);
+    }
+}
+
+4.What is the error you get when you attempt to access an array element that is outside of
+the length of the array?
+ANS:
+ArrayIndexOutOfBoundsException
+
+5.Write a method that takes in an array as a parameter and prints each element in the array
+on its own line:
+public int methodArray(int [] numArray) {
+    int numbers = 0;
+
+    for(int i=0; i < numArray.length; i++ ) {
+        if(numArray[i] > numbers) {
+            numbers = numArray[i];
+            System.out.println(numbers);
+        }
+    }
+    return numbers;
+}
+
+6.Assuming we have a Planet class that encapsulates data on a planet, write a new array
+declaration for all the planets in our solar system that uses the Planet class:
+ANS:
+Planets[] planets = new Planets[10];
+
+7.Describe the relationship between variable length parameter lists and arrays.
+ANS:
+Both receives a list of parameters that are treated as an array
+
+8.Declare a 2D array representing the seating on a plane. Populate it with typical seat
+references of row and letter such as 10C or 22A (using a nested loop):
+int[][] seats = new int[4][3];
+    for (int row = 0; row < seats.length; row++) {
+        for (int col = 0; col < seats[row].length; col++) {
+            seats[row][col] = row * col;
+        }
+    }
+ }
+
+Reflect on your learning and your needs. After this class meeting, what topics do you feel
+like you learned and what topics do you feel like you need more information on to learn?
+ANS:
+I have been able to understand more concepts on arrays like working with 2 dimensional array
+declaring an array, printing an array, populating an array with loop statement
+
+I will need more information on arrays like working with other dimensional arrays
+
